@@ -1,0 +1,46 @@
+{
+  "title": "OCI Compute Instance Creation",
+  "description": "Provision an Oracle Compute Instance using OCI CLI",
+  "difficulty": "beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Prepare the environment with OCI CLI",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Provision the Compute Instance",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Validate the Compute Instance creation with NGINX",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "",
+      "courseData": "background.sh",
+      "code": "foreground.sh"
+        },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "prepareStepOne.sh",
+          "target": "/root/"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nExecute bash shell commands \u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}

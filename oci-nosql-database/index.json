@@ -1,0 +1,66 @@
+{
+  "title": "First steps with NoSQL Database on Oracle Cloud Infrastructure",
+  "description": "Managing data through Relational Model and JSON with Oracle NoSQL.",
+  "difficulty": "beginner",
+  "time": "35 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Preparing the lab environment",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Create a NoSQL Database table",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Create Records and Query Data",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Working with Schemaless JSON documents",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Working with JSON properties in Query and Update",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 6 - Bonus: Interact with NoSQL Database from Node App and OCI Function",
+        "text": "step6.md"
+      },
+      {
+        "title": "Step 7 - Clean Up: remove the NoSQL data & tables",
+        "text": "step7.md"
+      }    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "",
+      "courseData": "background.sh",
+      "code": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [       {
+        "file": "special-doc.json",
+        "target": "/root/"
+      }, 
+      {
+        "file": "nosql.js",
+        "target": "/root/"
+      }
+
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nExecute bash shell commands \u001b[m\r\n",
+    "showide": true
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}

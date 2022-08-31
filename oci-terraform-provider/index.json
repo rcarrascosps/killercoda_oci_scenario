@@ -1,0 +1,90 @@
+{
+  "title": "Infrastructure as Code with OCI Terraform Provider, Resource Manager & Stacks",
+  "description": "Provisioning Oracle Cloud Infrastructure resources as Infrastructure as Code through Terraform.",
+  "difficulty": "beginner",
+  "time": "25 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Introduction Terraform",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Install Terraform Provider for OCI",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Manage OCI Resource with Terraform",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Inspect and Visualize",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Destroy Resources Managed by Terraform",
+        "text": "step5.md"
+      },
+      {
+        "title": "Bonus: Step 6 - Create and Invoke Function using Terraform",
+        "text": "step6.md"
+      },
+      {
+        "title": "Bonus: Step 7 - OCI Resurce Manager, Sample and Custom Stacks",
+        "text": "step7.md"
+      }    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "",
+      "courseData": "background.sh",
+      "code": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "main.tf",
+          "target": "/root"
+        },
+        {
+          "file": "function.tf",
+          "target": "/root/terraform_details"
+        },
+        {
+          "file": "variables.tf",
+          "target": "/root"
+        },
+        {
+          "file": "environment.sh",
+          "target": "/root"
+        },
+        {
+          "file": "stack/stack.zip",
+          "target": "/root/stack"
+        },
+        {
+          "file": "stack/variables.tf",
+          "target": "/root/stack"
+        },
+        {
+          "file": "stack/provider.tf",
+          "target": "/root/stack"
+        },
+        {
+          "file": "stack/main.tf",
+          "target": "/root/stack"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nExecute bash shell commands \u001b[m\r\n",
+    "showide": true
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}

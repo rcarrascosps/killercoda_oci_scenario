@@ -1,0 +1,83 @@
+{
+  "title": "Monitoring, Metrics, Alarms and Notifications, Audit and Health Checks",
+  "description": "On monitoring OCI metrics and creating automated alarms to publish notifications upon relevant situations.",
+  "difficulty": "beginner",
+  "time": "50 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Introduction Metrics and Monitoring",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Make Some Noise!!!",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Metrics Explorer in OCI Console",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Create an Alarm to Observe Exceptional Metrics associated with a Notification Topic",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Create an Email Subscription on the Notification topic",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 6 - Make Some Exceptional Noise!",
+        "text": "step6.md"
+      },
+      {
+        "title": "Step 7 - Publish Custom Metrics",
+        "text": "step7.md"
+      },
+      {
+        "title": "Step 8 - Retrieve Custom Metrics in CLI and Console",
+        "text": "step8.md"
+      }
+      ,
+      {
+        "title": "Step 9 - Create and Trigger a Functional Alarm on Custom Metrics",
+        "text": "step9.md"
+      }      ,
+      {
+        "title": "Step 10 - Audit Log",
+        "text": "step10.md"
+      }      ,
+      {
+        "title": "Step 11 - Health Checks",
+        "text": "step11.md"
+      }    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "",
+      "courseData": "background.sh",
+      "code": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "custom-metrics.json",
+          "target": "/root"
+        },
+        {
+          "file": "get-metrics.json",
+          "target": "/root"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nExecute bash shell commands \u001b[m\r\n",
+    "showide": true
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
