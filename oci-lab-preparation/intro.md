@@ -1,4 +1,4 @@
-This scenario will guide you in preparing the OCI Lab Environment (for the OCI Katacoda scenarios) on any OCI tenancy.
+This scenario will guide you in preparing the OCI Lab Environment (for the OCI Killercoda scenarios) on any OCI tenancy.
 
 The final environment will live in a single compartment called *lab-compartment*. This compartment also contains:
 * an API Gateway
