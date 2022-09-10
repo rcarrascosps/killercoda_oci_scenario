@@ -29,7 +29,7 @@ This step in the scenario will help you prepare these files and to add the publi
 Login to the OCI Cloud Console as the tenancy owner (or a user who is administrator). 
 
 Open the OCI Cloud Shell tool, from the OCI Cloud Console.
-![](assets/cloud-shell.png)
+![](./assets/cloud-shell.png)
 
 Note: For clipboard operations, Windows users can use Ctrl-C or Ctrl-Insert to copy, and Shift-Insert to paste. For Mac OS users, use Cmd-C to copy and Cmd-V to paste.
 
@@ -86,7 +86,7 @@ echo "$__config"
 </pre>
 
 Select the output from this command in Cloud Shell and copy it to the clipboard (through right mouse menu or using Ctrl-C or Ctrl-Insert in Windows and Cmd-C on Mac OS).
-![](assets/copy-config-file-values.png)
+![](./assets/copy-config-file-values.png)
 
 Back in the Katacoda scenario: open file *~/.oci/config* in the text editor, and paste the contents from the clipboard into the file.
 
@@ -98,10 +98,10 @@ cat ~/oci-keys/oci_api_key.pem
 </pre>
 
 Note: this is the private key that no one but you should have access to. We only need to show the contents so you can copy it to the clipboard and paste into a file in the Katacoda scenario.
-![](assets/copy-private-key.png)
+![](./assets/copy-private-key.png)
 
 Back in the Katacoda scenario: open file *~/.oci/oci-api-key.pem* in the text editor, and paste the contents from the clipboard into the file.
-![](assets/paste-private-key-to-katacoda.png)
+![](./assets/paste-private-key-to-katacoda.png)
 
 ## Try out the OCI CLI connection to your Tenancy
 To make sure that the *config* file and the *oci-api-key.pem* file have the correct contents, try out the following command to get a list of all namespaces you currently have access to - based on the OCI Configuration defined above.
@@ -128,7 +128,7 @@ Note: the following syntax will be used to use the lowercase value for region:
 ## Auth Token for OCIR (Container Registry)
 
 For working with Functions, you need an auth token for working with the OCI Container Registry. The next script generates such a token for the tenancy owner (the oldest user in the tenancy). Please record this token for use in the scenarios that work with functions. Note: you can find these tokens in the console as well: https://console.us-ashburn-1.oraclecloud.com/identity/users/<user-ocid>/swift-credentials. 
-![](assets/auth-tokens.png)
+![](./assets/auth-tokens.png)
 
 Execute this command to generate the Auth Token
 

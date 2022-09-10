@@ -2,10 +2,10 @@
 
 The Lab environment uses a compartment called *lab-compartment* to hold all new OCI resources. When you are done with this scenario, the tenancy will have this compartment, set up like this:
 
-![](assets/lab-compartment-layout.png)
+![](./assets/lab-compartment-layout.png)
 
 The resources are created in the OCI tenancy - in the *lab-compartment* from the OCI CLI environment set up in the Katacoda scenario VM:
-![](assets/creating-lab-resources-with-oci-cli.png)
+![](./assets/creating-lab-resources-with-oci-cli.png)
 
 Create this compartment with the following commands:
 
@@ -43,16 +43,16 @@ Note: this wizard is available in the OCI Console: https://console.us-ashburn-1.
 `echo "Open the console at https://console.${REGION,,}.oraclecloud.com/networking/vcns"`{{execute}}
 
 Make sure that the List Scope element in the lower left hand corner of the OCI Console window is set to *lab-compartment*.
-![](assets/compartment-scope.png)
+![](./assets/compartment-scope.png)
 
 The start the wizard.
-![](assets/run-vcn-wizard.png)
+![](./assets/run-vcn-wizard.png)
 
 Select the default option in th VCN wizard "VCN with Internet Connectivity" and press *Start VCN Wizard*.
-![](assets/stepone-vcn-wizard.png)
+![](./assets/stepone-vcn-wizard.png)
 
 Use as the name of the VCN: *vcn-lab*. Accept all examples for CIDR blocks and default settings elsewhere. 
-![](assets/run-vcn-wizard.png)
+![](./assets/run-vcn-wizard.png)
 
 When the wizard is done run this statement to retrieve the OCID of the VCN that has been created, as well as the public subnet's id and the identifier of the security list created for the VCN:
 ```
@@ -76,10 +76,10 @@ Add a network security rule to allow inbound traffic to public subnet on port 44
 If you are curious, you can verify the network security list in the OCI Console:
 `echo "Open the console at https://console.${REGION,,}.oraclecloud.com/networking/vcns/$vcnId/security-lists/$slOCID"
 `{{execute}}
-![](assets/security-list-overview.png)
+![](./assets/security-list-overview.png)
 
 and the specific new ingress rule for incoming traffic on port 443:
-![](assets/define-ingress-rule.png)
+![](./assets/define-ingress-rule.png)
 
 ## Create API Gateway
 
