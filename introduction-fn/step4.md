@@ -34,7 +34,7 @@ test(`Simple test for ${name}`, () => {
 
 Run the test using
 `npm test`{{execute}}
-![](assets/jest-existingNodeApp.png)
+![](./assets/jest-existingNodeApp.png)
 This should report favorably on the test of module *existingNodeApp*.
 
 This test of course does not test the Fn framework, the successful creation of the Docker container image and whatever is done inside *func.js*. It tests the core functionality that *existingNodeApp* provides to the wrapper function.
@@ -45,7 +45,7 @@ We can go one step further, and test *func.js* as well - still before the functi
 * implement the mock version of module @fnproject/fdk with a mock version of function *handle*
 * create file func.test.js that uses module @fnproject/fdk and runs tests against *func.js* 
 
-![](assets/jest-testing-offunction.png)
+![](./assets/jest-testing-offunction.png)
 
 Create the new file for implementing the mock fdk.js:  
 ```
@@ -114,7 +114,7 @@ A different type of test could forego the Node implementation and only focus on 
 
 ## Service Testing with Newman
 Newman is an npm module that is used for running Postman test collections from the command line - and therefore in an automated fashion. See [Running collections on the command line with Newman](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) for more details on Newman.
-![](assets/testing-with-newman.png)
+![](./assets/testing-with-newman.png)
 
 Install Newman as Node module:
 `npm install --save-dev newman`{{execute}}
@@ -141,9 +141,9 @@ You can check whether file *env.json* now contains the correct function endpoint
 To run the test, you can use
 `npm run test-fn`{{execute}}
 
-this will run the *test-fn* script as defined in the file package.json that will run *Newman* with the specified collection *postman-hello-collection.json* that was copied in from the scenario assets folder. You should now see confirmation of the tests - defined in the Postman collection and executed by Newman (against the - locally - deployed Function - invoked through the local Fn framework).
+this will run the *test-fn* script as defined in the file package.json that will run *Newman* with the specified collection *postman-hello-collection.json* that was copied in from the scenario ./assets folder. You should now see confirmation of the tests - defined in the Postman collection and executed by Newman (against the - locally - deployed Function - invoked through the local Fn framework).
 
-![](assets/newman-tests.png)
+![](./assets/newman-tests.png)
 
 Check the contents of the file `postman-hello-collection.json` - in the IDE or on the terminal:
 `cat postman-hello-collection.json`{{execute}}
@@ -176,7 +176,7 @@ The json file contains a single request - to the Hello function - with a body an
 
 ## Performance Testing
 We will now briefly look at performance testing the Fn function, using a simple tool called Apache Bench.
-![](assets/testing-with-apachebench.png)
+![](./assets/testing-with-apachebench.png)
 
 Read this article for a very quick introduction of Apache Bench: https://www.petefreitag.com/item/689.cfm
 

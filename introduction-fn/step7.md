@@ -57,7 +57,7 @@ One major difference we expect to see is in the size of the Docker image prepare
 To check and compare the sizes of the Docker images, execute this command: 
 `docker images | grep hello `{{execute}}
 
-![](assets/docker-function-images.png)
+![](./assets/docker-function-images.png)
 
 As you can see, the function image that includes everything required to run, including the operating system and the function native executable, is only weighing around 21 MB! Since all necessary components of a virtual machine (ex. GC) are embedded into the function executable, there is no need to have a separate Java runtime (JRE) in the function Docker image. When a function is invoked through Fn, Fn will instruct Docker to pull and launch the corresponding container image and hence the smaller this container image is, the better it is to reduce the cold-startup time of this function.
 
@@ -68,7 +68,7 @@ To give us an idea, we can quickly measure the cold startup of the function. Exe
 We expect to see that the cold startup time of a GraalVM native-image function is improved, comparing to the regular Java function with JIT compilation.
 
 Those numbers will vary depending on the machine you run the tests on but this basic benchmark shows that the cold startup of the GraalVM native-image function is faster. In this particular example, the cold startup of the GraalVM native-image function is probably ~70% of the cold startup time of the same Java function that uses a regular JVM (HotSpot in the case of Fn with Java runtime).
-![](assets/aot-vs-jit-startuptimes.png)
+![](./assets/aot-vs-jit-startuptimes.png)
 
 
 

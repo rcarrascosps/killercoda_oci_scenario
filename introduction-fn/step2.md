@@ -71,7 +71,7 @@ Again, a friendly, this time personalized, welcome message should be your reward
 
 What is happening here: when you invoke "hello-app hello" the Fn server looked up the "hello-app" application and then looked for the Docker container image bound to the "hello" function, started the container (if it was not already running) and send the request to the handler listening inside the container.
 
-![Fn Server handles request](assets/fn-server-functions.jpg)
+![Fn Server handles request](./assets/fn-server-functions.jpg)
 
 ### Inspect some under-the-hood details
 
@@ -93,7 +93,7 @@ When creating a new app you can specify the URL using the --syslog-url option. F
 We will quickly grab logging output to a local syslog server. 
 
 Open a second terminal window - for running the syslog server:
-![](assets/open-2nd-terminal.png)
+![](./assets/open-2nd-terminal.png)
 
 Execute the following commands to install the npm module [Simple Syslog Server](https://www.npmjs.com/package/simple-syslog-server), copy a simple node application to run a syslog server based on the npm module and run that application:
 

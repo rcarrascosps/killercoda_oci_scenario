@@ -75,7 +75,7 @@ The custom HTTP header in this CURL call should now be visible in the response f
 
 By inspecting the *ctx* input parameter, you can make your function interpret the request in a more encompassing way than by only inspecting the input parameter. 
 
-![Fn Server handling an HTTP request](assets/fn-handle-request.jpg)
+![Fn Server handling an HTTP request](./assets/fn-handle-request.jpg)
 
 
 ### Detailed Overview of the Function Context

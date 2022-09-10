@@ -13,5 +13,5 @@ During the lab, the user will also create:
 * a Bucket and multiple Files (Object Storage)
 * an API Deployment (on the API Gateway) and multiple Routes
 
-![The Lab Environment on OCI](/lucasjellema/scenarios/oci-lab-preparation/assets/oci-lab-environment.jpg)
+![The Lab Environment on OCI](/lucasjellema/scenarios/oci-lab-preparation/./assets/oci-lab-environment.jpg)
 

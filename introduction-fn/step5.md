@@ -7,7 +7,7 @@ Fn config variables can be set for applications (and apply to all functions in t
 * Function Config Variables: Variables stored for a function are only available to that function.
 * Pre-defined environment variables: By default, a number of environment variables are automatically generated in an Fn Docker image. The next figure show the automatically generated variables.
 
-![](assets/predefined-env-vars.png)
+![](./assets/predefined-env-vars.png)
 
 Add a configuration variable to the hello-app application
 
