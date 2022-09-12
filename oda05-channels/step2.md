@@ -1,6 +1,6 @@
 By clicking on '+ Channel' button you will see the creation dialog.
 
-![Oracle Digital Assistant - create channel dialog](assets/oda-channels-create-dialog.jpg)
+![Oracle Digital Assistant - create channel dialog](./assets/oda-channels-create-dialog.jpg)
 
 You have to fill the values like the picture above.
 

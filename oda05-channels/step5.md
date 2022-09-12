@@ -2,7 +2,7 @@ The configuration of the environment is now completed. Now you have to click on 
 
 As you can see in the image below, there are some folder and files that you will review during this process.
 
-![Oracle Digital Assistant - widget folder structure](assets/folder-structure.jpg)
+![Oracle Digital Assistant - widget folder structure](./assets/folder-structure.jpg)
 
 ### index.html
 This would be the page where you will display the widget. For example, if you want to display the widget in all the pages of your application you would include thse two script tags that you can see on lines 12 and 13.
