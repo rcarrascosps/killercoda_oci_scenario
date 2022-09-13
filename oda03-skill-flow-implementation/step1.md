@@ -2,7 +2,7 @@ Click on the Flows menu.
 
 First of all, theres a button '+ Components' where you have code snippets for all the components you cna add to the flow. This provides a baseline for the states you want to add, meaning you dont need to write every single like of code.
 
-![Oracle Digital Assistant - component palette](assets/components-palete.jpg)
+![Oracle Digital Assistant - component palette](./assets/components-palete.jpg)
 
 By default, the flow is initializated with an example. You can delete all the lines below 'states:' (in line 28) because you will be adding and understanding new code.
 

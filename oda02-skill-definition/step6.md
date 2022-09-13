@@ -5,7 +5,7 @@ At the time of writing, there are two models available.
   * Trainer Ht: This one is a linguistic-based model that does not require a lot of utterances to disambiguate the intent.
   * Trainer Tm: On the other hand, Trainer Tm is a machine learing-based model. This is the one you usually want to be enabled when going live.
 
-![Oracle Digital Assistant Train button](assets/train-button.jpg) Click on the 'Train' button and select 'Trainer Ht'.
+![Oracle Digital Assistant Train button](./assets/train-button.jpg) Click on the 'Train' button and select 'Trainer Ht'.
 
 Once the trainig has finnished, you can start testing. On the intents page, click on 'Try It Out!' link.
 
@@ -21,6 +21,6 @@ You can try the following phrases.
 
 As you can see in the image below, if you provide a location and a date is it recognized and marked as an Entity.
 
-![Oracle Digital Assistant Train button](assets/intent-tester.jpg)
+![Oracle Digital Assistant Train button](./assets/intent-tester.jpg)
 
 Feel free to try out new phrases. If by any chance, the Confidence percentaqge is low (<60) or another intent is higher than the one you think it should recognize, you can click on 'Add Example' button and retrain the model.

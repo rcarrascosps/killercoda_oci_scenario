@@ -4,4 +4,4 @@ As explained in the past scenarios, a Compartment allows you to organize and iso
 
 For this hands-on, you can select the root compartment. Then proceed to the next step!
 
-![OCI console - Digital Assistant - Select Compartment](assets/select-compartment.jpg)
+![OCI console - Digital Assistant - Select Compartment](./assets/select-compartment.jpg)

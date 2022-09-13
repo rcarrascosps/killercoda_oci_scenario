@@ -1,4 +1,4 @@
-![Oracle Digital Assistant Logo](assets/oda-sticker.jpg)
+![Oracle Digital Assistant Logo](./assets/oda-sticker.jpg)
 
 At the end of the next 4 scenarios you will have built your own Weather Assistant! 
 Giving a location and optionally a date, the chatbot will consume a weather API to retrieve the weather information.

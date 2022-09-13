@@ -1,4 +1,4 @@
-![Oracle Digital Assistant Logo](assets/oda-sticker.jpg)
+![Oracle Digital Assistant Logo](./assets/oda-sticker.jpg)
 
 In this scenario you will be consuming an external REST service to retrieve weather information.
 In Oracle Digital Assistan this can be achieved by creating a Custom Component using the SDK provided and a couple of Node.js modules.
